@@ -112,7 +112,9 @@ class _HomePageState extends State<HomePage> with WindowListener {
       ),
       endDrawer: DetailsDrawer(
         node: selectedNode,
-        onOpen: () {},
+        onOpen: () {
+          launchUrl(Uri.parse(selectedNode!.url!));
+        },
         onCopy: () {
           String data = selectedNode!.uniqueValue;
           Clipboard.setData(ClipboardData(text: data));
