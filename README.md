@@ -1,5 +1,9 @@
 # MeSH Graph
 
-An example application for graphist and related packages, focusing on Medical Subject Headings (MeSH) data.
+An interactive graph visualizer for Medical Subject Headings (MeSH) data, built on the [graphist](https://github.com/amin-ahmadi-com/graphist) package.
 
-It allows visualizing, searching and interacting with MeSH data in the form of a graph.
+Visualize MeSH entities and their relationships as an interactive graph, search for medical subjects, and explore details.
+
+## Prerequisites
+
+Before running this app, you must first populate the MeSH database. Use the [mesh_nt_2_sqlite](https://github.com/amin-ahmadi-com/mesh_nt_2_sqlite) tool to download MeSH `.nt` files and convert them into the `data.db` SQLite database that this app depends on.
