@@ -31,10 +31,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  graphist: ^0.2.0
+  graphist: ^0.3.0
 
   window_manager: ^0.2.7
-  graphist_mesh_sqlite: ^0.1.0
+  graphist_mesh_sqlite: ^0.3.0
   url_launcher: ^6.1.5
   http: ^0.13.5
   path: ^1.8.2
